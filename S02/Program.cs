@@ -84,7 +84,18 @@
             int pagesInt = Convert.ToInt32(pagesText);
             Console.WriteLine(pagesInt);
             #endregion
-
+            #region Q8
+            /*
+             * Given string yearText = "2023";, convert it using int.Parse(). Then given string badText = "abc";,
+             * use int.TryParse() to safely try converting it, and print "Invalid number" if it fails.
+             */
+            Console.WriteLine("-----------------------------------");
+            Console.WriteLine("Q8:");
+            string yearText = "2023";
+            int year = int.Parse(yearText);
+            string badText = "abc";
+            int badNumber = int.TryParse(badText, out int result) ? result : throw new FormatException("Invalid number");
+            #endregion
 
 
 
