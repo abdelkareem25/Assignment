@@ -387,6 +387,9 @@ namespace S02
             string result = "Book: " + title2 + ", Pages: " + pages;
             Console.WriteLine(result);
 
+
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("Question 06");
             //using string interpolation ($"...").             
             Console.WriteLine($"Book: {title2}, Pages: {pages}");
 
