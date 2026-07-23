@@ -420,6 +420,14 @@ namespace S02
             string? author = null;
             Console.WriteLine(author?.Length);
             #endregion
+            #region Q10
+            //Create a one-dimensional array double[] prices with the values 25.5, 40.0, 33.75. Print
+            //the second price(index 1).
+            Console.WriteLine("-------------------");
+            Console.WriteLine("Question 10");
+            double[] prices = { 25.5, 40.0, 33.75 };
+            Console.WriteLine(prices[1]);
+            #endregion
             #endregion
 
         }
