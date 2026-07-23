@@ -388,13 +388,18 @@ namespace S02
             Console.WriteLine(result);
 
 
+            //using string interpolation ($"...").             
             Console.WriteLine("-------------------------");
             Console.WriteLine("Question 06");
-            //using string interpolation ($"...").             
             Console.WriteLine($"Book: {title2}, Pages: {pages}");
 
+
             //but using string.Format().
-            Console.WriteLine();
+            Console.WriteLine("-------------------------");
+            Console.WriteLine("Question 07");
+            string format = string.Format("Book: {0}, Pages: {1}", title2, pages);
+            Console.WriteLine(format);
+
             #endregion
 
             #endregion
